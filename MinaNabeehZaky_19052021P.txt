@@ -80,7 +80,6 @@ support Continuous Integration framework based on Jenkins.
 teams to ensure continuous operation of build and test systems.
 \item implement full smoke test that tests main hardware functionality that ensured automatic CI release
 process.
-    \item Maintain and develop fully automated CI build and deployment infrastructure and processes and
 \end{itemize}
 \\
 \\{\bf Fiat Chrisler (FCA) ECU} - Infineon Aurix TC3xx\\
