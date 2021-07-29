@@ -1,0 +1,151 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (19/5/2021)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Mina Nabeeh Zaky 
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Mina Nabeeh Zaky} % Your name
+\address{Nasr City,Cairo,Egypt} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{(+20)1220490123 \\ miina.nabeeh@gmail.com} % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Ain Shams University, Cairo} \hfill {\em June 2012-2017} 
+\\ Bachelor of Computer and System Engineering.
+
+\\{\bf Patriarchal college ex-freres Heliopolis, Cairo} \hfill {\em July 2012} 
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+\end{rSection}
+\begin{rSection}{Career Summary}
+Experienced Embedded Software Engineer with a demonstrated history of working in the automotive
+industry and functional safety topics along with Software Testing integration and Quality process.
+\end{rSection}
+%--------------------------------------------------------------------------------
+%    Experience
+%-----------------------------------------------------------------------------------------------
+\begin{rSection}{EXPERIENCE}
+{\bf Avelabs LLC.}
+\begin{itemize}
+\setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+    \item participating in research and development project as implementing CAN stack and AUTOSAR implementations over TivaC arm cortex m4.
+     \item participating in Yonohub.com robotic simulator and setup the necessary embedded linux tools for the project (fastrtps and ROS modules) on TI Sitara board am57xx for demo purpose.
+\\
+\\{\bf Volvo Trucks ECU (2017-2019) - TDa3x - } 
+\begin{itemize}
+\setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+    \item optimize in Software implementations and enhancing communication over CAN Algorithms on
+hardware register level and on driver and interface levels.
+  \item increasing quality features as Software components unit tests implementations and coverage
+increasing according to ASIL component.
+\item Solving and justify a huge number of MISRA and compiler warnings that helped in increasing
+code qulity.
+\item vector Candela studio diagnostic files integration.
+    \item Maintain and develop fully automated CI build and deployment infrastructure and processes and
+support Continuous Integration framework based on Jenkins.
+\item Work across functional (development/testing, deployment, systems/infrastructure) and project
+teams to ensure continuous operation of build and test systems.
+\item implement full smoke test that tests main hardware functionality that ensured automatic CI release
+process.
+    \item Maintain and develop fully automated CI build and deployment infrastructure and processes and
+\end{itemize}
+\\
+\\{\bf Fiat Chrisler (FCA) ECU} - Infineon Aurix TC3xx\\
+\begin{itemize}
+\setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+    \item RTE integration and create requested port interfaces across sw component teams and functional safety teams using Davinci configurator and Developer.
+        \item contributing in safety CDDs and creating runnables like SMU alarms, real time measurements and  watchdog supervised entities configurations and helped in maintaining project stability with new timing requirements.
+        \item CANoe DBC integration and testing and updating canoe scripts to validate and test.
+        \item implement new BSW requirements like OS Task configuration and splitting and create OS spinlocks along with memory mapping and linker scripts changes.
+                \item write all necessary SW requirements on polarion SRD,SAD,SDD and perform required SQTS and SITS.
+                \\
+                
+\\{\bf Denso ECU} -Arm cortex A\\
+
+    \item implement AUTOSAR wrapper for CAN driver requirements and  optimizations.
+      \item provide necessary MCAL configurations ports,CAN and LIN configuration using MCAL EB Tresos Studio.
+    \\
+        
+\\{\bf Robotic Swarm Algorithm-Graduation Project}\\
+implement swarm intelligent algorithm performed on a set of robots to execute realtime tasks the robots were implemented using Atmega32, my particular role was implementing odometry algorithm and interfacing sensors like proximity and line tracker sensor that was used to detect the angle of rotation of the robots to make the robots able to identify it's position.
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+%\newpage
+\begin{rSection}{Technical}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{4ex}} l }
+Programming Languages & C/C++, Python, JAVA, bash/shell\\
+& MATLAB/Octave, Groovy, assembly.\\
+&\\
+Software Tools & visual studio,Code Composer, Vector Canoe,\\& vector GENY configurator\\
+&volvo engineering and diagnostic tool ,git, turtoise git, Jenkins,\\
+&Davinci Configurator and Developer EB Tresos\\
+&cygwin, gcc, cmake, makefile, OpenCV, HIL\\
+&good knowledge of LINUX/UNIX shell commands.\\
+&Familiar with Polarion, DOORS, JIRA, Gerrit Code review,\\& Agile process and Scrum.\\
+&Familiar with Quality standards-ASPICE quality model.\\
+&Good understanding of CI/CD concepts.\\
+&\\Microcontrollers 
+&ARM cortex M4, TivaC, ATmega32, STM32F4 stmIDE,\\&AURIX TC3xx, TI Sitara board am57xx \\
+&\\
+Debuggers & TI blackhawk, XDS560v2 System Trace,Green Hills, lauterbach.\\
+&\\
+Communication protocols & CAN, LIN, SPI, UART,I2C and Ethernet.\\
+&Familiar with XCP protocol\\& DCM configuration for UDS diagnostics over CAN.\\
+&\\
+\end{tabular}
+
+\end{rSection}
+
+
+\end
+
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Personal}
+\item Highly motivated and eager to learn new technologies.
+\item Strong Analytical and logical thinking.
+\item work in a group or alone.\\\\
+{\bf Date Of Birth : 1-12-1992}
+\end{rSection}
+\end{document}
